@@ -113,7 +113,7 @@ public class FriendRequests extends Activity {
 			findFriends = query.find();
 			myFriendsObjects = new String[findFriends.size()];
 			ParseObject p = findFriends.get(0);
-			if (p.getList("friendRequests") == null)
+			if (p.getList("friendRequests") != null)
 				myFriendsObjects = p.getList("friendRequests").toArray();
 			myFriends = Arrays.copyOf(myFriendsObjects, myFriendsObjects.length, String[].class);
 		} catch (ParseException e) {
