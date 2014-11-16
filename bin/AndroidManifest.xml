@@ -61,6 +61,11 @@
 		</activity>
 		
         <activity
+            android:name=".FriendSearch"
+            android:label="Friend Search Page" >
+		</activity>
+		
+        <activity
             android:name=".FriendRequests"
             android:label="Friend Requests" >
 		</activity>

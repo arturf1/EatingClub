@@ -29,6 +29,8 @@ import com.parse.ParseQuery;
 import com.parse.ParseUser;
 
 public class FriendPage extends Activity {
+	public static String searchQuery; 
+	
 	RelativeLayout friendRequestButton;
 	LinearLayout friendRequestList;
 	RelativeLayout allFriendsButton;
@@ -159,9 +161,13 @@ public class FriendPage extends Activity {
 		return false;
 	}
 
-
-	public void approveFriendButtonClicked(View v) {
-		// calls approveFriendRequest
+	public void searchButtonClicked(View v) {
+		Class targetActivity = null;
+		EditText textElement = (EditText) findViewById(R.id.searchFriendField);
+		searchQuery = textElement.getText().toString();
+		targetActivity = FriendSearch.class;
+		Intent intent = new Intent(this, targetActivity);
+		startActivity(intent);
 	}
 
 }

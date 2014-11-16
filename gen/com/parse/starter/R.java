@@ -32,35 +32,35 @@ public final class R {
         public static final int signin=0x7f02000f;
     }
     public static final class id {
-        public static final int LinearLayout02=0x7f060013;
+        public static final int LinearLayout02=0x7f060014;
         public static final int btnSubmit=0x7f060005;
         public static final int button1=0x7f060008;
         public static final int button2=0x7f06000d;
         public static final int button3=0x7f06000e;
-        public static final int buttonFriend=0x7f060016;
-        public static final int checkInBtn=0x7f060014;
+        public static final int buttonFriend=0x7f060017;
+        public static final int checkInBtn=0x7f060015;
         public static final int dateEvent=0x7f060003;
         public static final int endTime=0x7f060002;
         public static final int imageView1=0x7f060000;
-        public static final int listView=0x7f060017;
-        public static final int passwordField=0x7f060010;
-        public static final int refreshBtn=0x7f060015;
+        public static final int listView=0x7f06000f;
+        public static final int passwordField=0x7f060011;
+        public static final int refreshBtn=0x7f060016;
         public static final int registerEmail=0x7f060019;
         public static final int registerName=0x7f060018;
         public static final int registerPassword1=0x7f06001a;
         public static final int registerPassword2=0x7f06001b;
         public static final int registerRegister=0x7f06001c;
         public static final int requestList=0x7f06000a;
-        public static final int rowTextView=0x7f060012;
+        public static final int rowTextView=0x7f060013;
         public static final int searchFriendField=0x7f06000b;
         public static final int searchFriends=0x7f06000c;
         public static final int spinner1=0x7f060004;
         public static final int startTime=0x7f060001;
         public static final int textView1=0x7f060009;
-        public static final int textView2=0x7f060011;
+        public static final int textView2=0x7f060012;
         public static final int title1=0x7f060006;
         public static final int title2=0x7f060007;
-        public static final int usernameField=0x7f06000f;
+        public static final int usernameField=0x7f060010;
     }
     public static final class layout {
         public static final int createevent=0x7f030000;
@@ -68,10 +68,11 @@ public final class R {
         public static final int friendlist=0x7f030002;
         public static final int friendpage=0x7f030003;
         public static final int friendrequest=0x7f030004;
-        public static final int initial=0x7f030005;
-        public static final int listrow=0x7f030006;
-        public static final int mainpage=0x7f030007;
-        public static final int registerpage=0x7f030008;
+        public static final int friendsearch=0x7f030005;
+        public static final int initial=0x7f030006;
+        public static final int listrow=0x7f030007;
+        public static final int mainpage=0x7f030008;
+        public static final int registerpage=0x7f030009;
     }
     public static final class string {
         public static final int app_name=0x7f040000;
