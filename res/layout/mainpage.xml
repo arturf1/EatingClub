@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo" />
+    
+    <LinearLayout 
+        android:id="@+id/LinearLayout02"
+        android:layout_height="wrap_content" 
+        android:layout_width="match_parent">
+   
+    <Button
+        android:id="@+id/checkInBtn"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:background="@drawable/checkin"
+        android:onClick="gotoCreateEvents" />
+
+    <Button
+        android:id="@+id/refreshBtn"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="0.48"
+        android:background="@drawable/refreshiconbutton"
+        android:onClick="refreshEvents" />
+    
+    <Button
+        android:id="@+id/buttonFriend"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="0.48"
+        android:background="@drawable/friendicon"
+        android:onClick="friendButtonClicked" />
+    
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="0.48"
+        android:background="@drawable/logouticon"
+        android:onClick="logOutButtonClicked" />
+      </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="0.96"
+        android:footerDividersEnabled="false" >
+    </ListView>
+
+</LinearLayout>

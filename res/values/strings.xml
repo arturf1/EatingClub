@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Eating Club</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="date">Date</string>
+    <string name="submit">Submit</string>
+    <string name="signinUserName">E-mail Address</string>
+    <string name="signinPass">Password</string>
+    <string name="registration">Registration</string>
+    <string name="enterName">Enter name</string>
+    <string name="enterEmail">Enter e-mail address</string>
+    <string name="passwordOnce">Password</string>
+    <string name="passwordTwice">Password Confirmation</string>
+    <string name="country_prompt">Choose a dining hall</string>
+   <string name="searchFriends">Search for Friends</string>
+    <string name="friendRequests">Friend Requests</string>
+    <string name="friends">Current Friends</string>
+    <string name="seeRequests">Current Friend Requests</string>
+    <string name="seeFriends">Current Friends</string>
+    
+    
+    <string-array name="country_arrays">
+        <item>Butler</item>
+        <item>Forbes</item>
+        <item>Rocky</item>
+        <item>Mathey</item>
+        <item>Wilson</item>
+        <item>Whitman</item>
+    </string-array>
+    
+</resources>
